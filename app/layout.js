@@ -20,12 +20,18 @@ import {
   Settings, 
   LogOut, 
   User,
-  Building2
+  Building2,
+  Users
 } from "lucide-react"
 import "./globals.css"
 
 // Navegación global
 const navigation = [
+  {
+    name: "Clientes",
+    href: "/clientes",
+    icon: Users
+  },
   {
     name: "Configuración",
     href: "/configuracion",
